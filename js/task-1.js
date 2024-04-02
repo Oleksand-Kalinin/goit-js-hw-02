@@ -1,6 +1,7 @@
 'use strict';
 
 // homework js 2
+
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
     let totalPriceOrder = quantity * pricePerDroid;
     if (totalPriceOrder > customerCredits) {
